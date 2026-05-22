@@ -64,10 +64,12 @@
 # else : print("its not")
 
 
-temprature=int(input("whats the temprature? "))
-if temprature<=5 and temprature>=-5:
-    print("freezing cold 🥶")
-elif temprature >=6 and temprature <=18:
-    print("pleasant 😊")
-elif temprature >=19 and temprature <=30:
-    print("very hot 🥵")
+# temprature=int(input("whats the temprature? "))
+# if temprature<=5 and temprature>=-5:
+#     print("freezing cold 🥶")
+# elif temprature >=6 and temprature <=18:
+#     print("pleasant 😊")
+# elif temprature >=19 and temprature <=30:
+#     print("very hot 🥵")
+
+
