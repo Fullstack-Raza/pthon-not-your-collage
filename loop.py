@@ -126,9 +126,73 @@
 #     if n%i==0:
 #         print(i)
 
-nf=int(input("give a nmbr for factors:-"))
-sumOfF=0
-for i in range(1,nf,):
-    if nf%i==0:
-        sumOfF+=i
-print(sumOfF)
+# nf=int(input("give a nmbr for factors:-"))
+# sumOfF=0
+# for i in range(1,nf,):
+#     if nf%i==0:
+#         sumOfF+=i
+
+# if sumOfF==nf:
+#      print("its a perfect num")  
+# else:
+#     print("its not a perfect num")
+
+# nf=int(input("give a nmbr for factors:-"))
+# isPrime=0
+# for i in range(1,nf+1,1):
+#     if nf%i==0:
+#         isPrime = isPrime+1
+# if isPrime==2:
+#     print("ea num prime hy ")
+# else:
+#     print("not prime")
+
+
+
+
+
+
+
+# nP=int(input("tell me a number: - "))
+# saving=0
+# for i in range(1,nP+1,1):
+#     if nP%i==0:
+#         saving= saving+1
+# if saving==2:
+#     print("its prime")
+# else:
+#     print("its composite")
+
+# word= "raza"
+# revWord=""
+# for i in range(-1,(-len(word))-1,-1):
+#     revWord+=word[i]
+# print(revWord)
+
+
+
+# word=input("give us a word to reverse")
+# saving=""
+# for i in range(-1,-len(word)-1,-1):
+#     saving+=word[i]
+
+# if word==saving:
+#     print("its palindrome")
+# else:
+#      print("its not palindrome")
+
+
+# word="Raza333##"
+# isalpha=0
+# isdigite=0
+# scahr=0
+# for i in word:
+#    if i.isalpha():
+#       isalpha+=1
+#    elif i.isdigit():
+#       isdigite+=1
+#    else:
+#       scahr+=1
+# print(isalpha,isdigite,scahr)
+      
+
