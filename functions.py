@@ -14,3 +14,6 @@ palindrome(212)
 palindrome(122)
 palindrome(123)
 palindrome(444)
+a=["Raza","Taqy",1,2,3,4,5,6,6,6,6,6,6,6]
+for i in a:
+    print(i)
