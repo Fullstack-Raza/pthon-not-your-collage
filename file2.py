@@ -1,6 +1,6 @@
 
 # from pathlib import Path
-# import os 
+import os 
 
 # def createfile():
 #     try:
@@ -202,7 +202,7 @@ elif operation == "🔄 Update File":
                         
             with tab3:
                 overwrite_content = st.text_area("New Content (Overwrites old data):", key="overwrite_box")
-                if st.button("Overwrite File", type="destructive"):
+                if st.button("Overwrite File", type="primary"):
                     try:
                         with open(file_path, 'w', encoding='utf-8') as file:
                             file.write(overwrite_content)
@@ -222,7 +222,7 @@ elif operation == "🗑️ Delete File":
         if file_path.exists():
             st.warning(f"⚠️ Warning: Are you sure you want to permanently delete '{file_name}'?")
             
-            if st.button("Confirm Delete", type="destructive"):
+            if st.button("Confirm Delete", type="primary"):
                 try:
                     file_path.unlink()
                     st.success(f"🗑️ '{file_name}' has been deleted successfully.")
