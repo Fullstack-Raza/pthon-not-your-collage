@@ -6,7 +6,10 @@
 # naam , age , email = info #unpack tuple
 # print(naam)
 
-s1={10,20,30,40,50}
-s2={10,20}
+# s1={10,20,30,40,50}
+# s2={10,20}
 
-print(s1 > s2)
+# print(s1 > s2)
+
+
+#  8/5/2026
